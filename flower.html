@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <audio id="myaudio" hidden autoplay loop preload="auto">
+      <source src="/music/Te Pido-TINI.mp3" type="audio/mpeg" />
+    </audio>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <title>flowers</title>
   </head>
+
+  <script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.1;
+  </script>
   <body class="container">
     <span class="gracias">¡Gracias!</span>
     <div class="night"></div>
