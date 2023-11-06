@@ -62,6 +62,13 @@ body {
     linear-gradient(90deg, rgb(7, 107, 42), rgb(240, 240, 240));
 }
 
+.container-flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
 .flowers {
   position: relative;
   transform: scale(0.9);
